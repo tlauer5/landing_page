@@ -1,5 +1,6 @@
 :root {
     --PADDING_KONSTANTE: 80px;
+    --MIDDLE_SECTION_WIDTH: 150px;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
     font-weight: 700;
     font-size: 24px;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 ul {
@@ -61,9 +62,40 @@ h1 {
     margin-right: 16px;
 }
 
-img {
-    max-width: 300px;
+.intro img {
+    max-width: 400px;
     height: auto;
     border-radius: 8px;
+}
+
+.middle-section {
+    padding: 32px var(--PADDING_KONSTANTE);
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin: 0;
+    padding: 0 0 16px 0;
+}
+
+.container {
+    display:flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.container img {
+    max-width: var(--MIDDLE_SECTION_WIDTH);
+    height: auto;
+    border-radius: 8px;
+}
+
+.container p {
+    max-width: var(--MIDDLE_SECTION_WIDTH);
+    margin-top: 0;
+
 }
 
