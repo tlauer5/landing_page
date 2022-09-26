@@ -80,7 +80,7 @@ h1 {
 }
 
 .intro img {
-    max-width: 400px;
+    width: auto;
     height: 200px;
     border-radius: 8px;
 }
